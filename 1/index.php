@@ -41,7 +41,7 @@
                         echo '<img class="card-img-top" src="' . $image->url . '">';
                     }
                 }
-                echo '<div class="card-body">'."<p class='font'>" . $items->album->name . "</p>";
+                echo '<div class="cbody">'."<p class='font'>" . $items->album->name . "</p>";
                 foreach ($items->album->artists as $artists){
                 echo "Artist : " . $artists->name . "<br>";
                 }
