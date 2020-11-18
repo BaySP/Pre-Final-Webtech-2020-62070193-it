@@ -41,7 +41,7 @@
                         echo '<img class="card-img-top" src="' . $image->url . '">';
                     }
                 }
-                echo '<div class="cbody">'."<p class='font'>" . $items->album->name . "</p>";
+                echo "<p class='font'>" . $items->album->name . "</p>";
                 foreach ($items->album->artists as $artists){
                 echo "Artist : " . $artists->name . "<br>";
                 }
@@ -49,7 +49,7 @@
                 foreach ($items->album->available_markets as $available_markets){
                     $num+=1;
                 }
-                echo "Avaliable : " . $num . " countries<br></div></div>";
+                echo "Avaliable : " . $num . " countries<br></div>";
                 }
             ?>
     </div>
